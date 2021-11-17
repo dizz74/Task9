@@ -48,7 +48,7 @@ namespace Part1
             }
 
             catch (DivideByZeroException) {
-                Console.WriteLine("олло, ну делить на ноль совсем кринж");
+                Console.WriteLine("Делить на ноль нельзя!");
             }
             catch (Exception e)
             {
